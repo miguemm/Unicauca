@@ -1,0 +1,23 @@
+.contenedor-principal {
+    position: absolute;
+    width: 100%;
+    top: 540px;
+}
+
+/* --------------------------------------------------------------
+# SECCION DE ACTUALIDAD
+--------------------------------------------------------------*/
+
+.contenedor-noticias {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* --------------------------------------------------------------
+# SECCION DE NOTICIAS
+--------------------------------------------------------------*/
+
+.noticia-texto {
+    text-align: justify;
+    text-justify: inter-word;
+}

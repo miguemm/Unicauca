@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,10 +9,13 @@
 
     <!-- BOOSTRAP -->
     <link rel="stylesheet" href="assets/vendor/bootstrap.css">
+
     <!-- MDB -->
-    <link rel="stylesheet" href="assets/vendor/mdb.min.css" />
+    <link rel="stylesheet" href="assets/vendor/mdb.min.css">
+
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/noticias.css">
 
 </head>
 
@@ -97,22 +100,30 @@
                                             </div>
                                             <div class="row">
                                                 <a href="" class="text-info">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
-                                                        <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
-                                                        <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-mortarboard-fill"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z" />
+                                                        <path
+                                                            d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z" />
                                                     </svg>
-                                                    INSCRIBETE</a>                                        
+                                                    INSCRIBETE</a>
                                             </div><br>
                                             <div class="row">
                                                 <a href="" class="text-info">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
-                                                        <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
-                                                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-                                                      </svg>
-                                                    CALENDARIO ACADEMICO</a>                                        
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-calendar-event"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                                                        <path
+                                                            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+                                                    </svg>
+                                                    CALENDARIO ACADEMICO</a>
                                             </div>
 
-                                            
+
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-xl-3">
@@ -253,8 +264,1027 @@
         </video>
     </div>
 
+    <!-- ======= ACTUALIDAD ======= -->
+    <div class="contenedor-principal">
+
+        <div class="contenedor-noticias container">
+            <!-- Noticias Container -->
+            <div class="container">
+
+
+
+                <!-- Pills navs -->
+                <ul class="nav nav-pills nav-justified mb-3 noticias" id="ex1" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="ex3-tab-1" data-mdb-toggle="pill" href="#ex3-pills-1" role="tab"
+                            aria-controls="ex3-pills-1" aria-selected="true">Noticias</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="ex3-tab-2" data-mdb-toggle="pill" href="#ex3-pills-2" role="tab"
+                            aria-controls="ex3-pills-2" aria-selected="false">Eventos</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="ex3-tab-3" data-mdb-toggle="pill" href="#ex3-pills-3" role="tab"
+                            aria-controls="ex3-pills-3" aria-selected="false">Comunicados</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="ex3-tab-4" data-mdb-toggle="pill" href="#ex3-pills-4" role="tab"
+                            aria-controls="ex3-pills-4" aria-selected="false">Resoluciones</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="ex3-tab-5" data-mdb-toggle="pill" href="#ex3-pills-5" role="tab"
+                            aria-controls="ex3-pills-5" aria-selected="false">Acuerdos</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="ex3-tab-6" data-mdb-toggle="pill" href="#ex3-pills-6" role="tab"
+                            aria-controls="ex3-pills-6" aria-selected="false">Circulares</a>
+                    </li>
+                </ul>
+                <!-- Pills navs -->
+
+                <!-- Pills content -->
+                <div class="tab-content noticias" id="ex2-content">
+                    <div class="tab-pane fade show active" id="ex3-pills-1" role="tabpanel" aria-labelledby="ex3-tab-1">
+
+                        <section>
+                            <div class="row gx-lg-5">
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/04/06/16492201547832.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="http://portal.unicauca.edu.co/versionP/sites/default/files/images/Fac_Cien_Hum_Soc01.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="http://portal.unicauca.edu.co/versionP/sites/default/files/images/Bioingenieria(1).JPG"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+                            </div>
+                        </section>
+                        <!--Section: Content-->
+
+                        <!-- Pagination -->
+                        <nav class="my-4" aria-label="...">
+                            <ul class="pagination pagination-circle justify-content-center">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" href="#">2</span></a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Siguiente</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div class="tab-pane fade" id="ex3-pills-2" role="tabpanel" aria-labelledby="ex3-tab-2">
+                        <section>
+                            <div class="row gx-lg-5">
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+                            </div>
+                        </section>
+                        <!--Section: Content-->
+
+                        <!-- Pagination -->
+                        <nav class="my-4" aria-label="...">
+                            <ul class="pagination pagination-circle justify-content-center">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Siguiente</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="tab-pane fade" id="ex3-pills-3" role="tabpanel" aria-labelledby="ex3-tab-3">
+                        <section>
+                            <div class="row gx-lg-5">
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+                            </div>
+                        </section>
+                        <!--Section: Content-->
+
+                        <!-- Pagination -->
+                        <nav class="my-4" aria-label="...">
+                            <ul class="pagination pagination-circle justify-content-center">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Siguiente</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="tab-pane fade" id="ex3-pills-4" role="tabpanel" aria-labelledby="ex3-tab-4">
+                        <section>
+                            <div class="row gx-lg-5">
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+                            </div>
+                        </section>
+                        <!--Section: Content-->
+
+                        <!-- Pagination -->
+                        <nav class="my-4" aria-label="...">
+                            <ul class="pagination pagination-circle justify-content-center">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Siguiente</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="tab-pane fade" id="ex3-pills-5" role="tabpanel" aria-labelledby="ex3-tab-5">
+                        <section>
+                            <div class="row gx-lg-5">
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+                            </div>
+                        </section>
+                        <!--Section: Content-->
+
+                        <!-- Pagination -->
+                        <nav class="my-4" aria-label="...">
+                            <ul class="pagination pagination-circle justify-content-center">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Siguiente</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="tab-pane fade" id="ex3-pills-6" role="tabpanel" aria-labelledby="ex3-tab-6">
+                        <section>
+                            <div class="row gx-lg-5">
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+
+                                <div class="col-lg-3 col-md-12 mb-2 mb-lg-0">
+                                    <!-- News block -->
+                                    <div>
+                                        <!-- Featured image -->
+                                        <div class="bg-image hover-overlay shadow-1-strong ripple rounded-5 mb-4"
+                                            data-mdb-ripple-color="light">
+                                            <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
+                                                class="img-fluid" />
+                                            <a href="#!">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                        <!-- Article title and description -->
+                                        <a href="" class="text-dark">
+                                            <h5>Titulo de la Noticia</h5>
+
+                                            <p class="noticia-texto">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste
+                                                aliquid. Sed
+                                                id nihil magni, sint vero provident esse numquam perferendis ducimus
+                                                dicta
+                                                adipisci iusto nam temporibus modi animi laboriosam?
+                                            </p>
+                                        </a>
+
+                                        <hr />
+
+                                    </div>
+                                    <!-- News block -->
+                                </div>
+                            </div>
+                        </section>
+                        <!--Section: Content-->
+
+                        <!-- Pagination -->
+                        <nav class="my-4" aria-label="...">
+                            <ul class="pagination pagination-circle justify-content-center">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Siguiente</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Pills content -->
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
     <!-- MDB -->
     <script type="text/javascript" src="assets/vendor/mdb.min.js"></script>
 </body>
 
-</html> -->
+</html>
