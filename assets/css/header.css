@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 /* --------------------------------------------------------------
@@ -13,9 +14,8 @@
     margin: 0 auto;
     justify-content: center;
     left: 0px;
-    z-index: 1200;
+    z-index: 1000;
     top: 0px;
-    z-index: 1200;
 }
 
 /* --------------------------------------------------------------
@@ -47,35 +47,37 @@
     height: 40px;
 }
 
-.dc-plataformas {
+.menu-roles {
     width: 50%;
     height: 40px;
     display: flex;
-    align-items: center;
+    align-items: center; 
     align-content: center;
 }
 
-.dc-plataformas ul {
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
-    width: 100%;
+.menu-roles ul {
+    display: flex !important;
+    justify-content: flex-start !important;
+    list-style: none !important;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
 }
 
-.dc-plataformas ul li {
+.menu-roles ul li {
     display: flex;
     padding: 0px 10px;
     list-style: none;
 }
 
-.dc-plataformas ul li a {
+.menu-roles ul li a {
     display: flex;
     list-style: none;
     color: #494949;
     cursor: pointer;
 }
 
-.dc-contacto {
+.menu-gobierno {
     width: 40%;
     height: 40px;
     display: flex;
@@ -83,20 +85,22 @@
     align-content: center;
 }
 
-.dc-contacto ul {
+.menu-gobierno ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.dc-contacto ul li {
+.menu-gobierno ul li {
     display: flex;
     margin: 0px 10px;
     list-style: none;
 }
 
-.dc-contacto ul li a {
+.menu-gobierno ul li a {
     display: flex;
     list-style: none;
     color: #494949;
@@ -116,7 +120,8 @@
     justify-content: flex-end;
     list-style: none;
     width: 100%;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .dc-redes ul li {
@@ -137,39 +142,16 @@
     color: blue;
 }
 
-img {
-    vertical-align: middle;
-    border-style: none;
-}
-
 
 a {
-    color: #007bff;
     text-decoration: none;
     background-color: transparent;
-}
-
-ol,
-ul,
-dl {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 
 /* --------------------------------------------------------------
 # NAVEGACION
 --------------------------------------------------------------*/
-.dc-menu-ppal {
+.menu-principal {
     display: flex;
     color: #FFF;
     width: 100%;
@@ -181,7 +163,7 @@ ul {
     font-family: HelveticaLight;
 }
 
-.dc-hamburguesa {
+.hamburguesa {
     width: 50px;
     display: flex;
     justify-content: center;
@@ -194,33 +176,41 @@ ul {
 
 /* TODO HAMBURGER */
 
-.dc-items-menu {
+.menu {
     display: flex;
     flex-wrap: nowrap;
     max-width: 1320px;
     font-family: 'HelveticaLight';
     font-size: 0.9rem;
-    /* padding-top: 14px; */
 }
 
-.dc-items-menu ul {
+.menu ul {
     display: flex;
-    padding: 0px 10px;
+    margin: 0;
+    padding: 0;
     list-style: none;
     width: 100%;
     justify-content: center;
     max-width: 1320px;
+
+    margin-block-start: 1em;
+    /* margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; */
 }
 
-.dc-items-menu ul li {
+.menu ul li {
     display: flex;
     padding: 0px 10px;
     list-style: none;
 }
 
-.dc-items-menu ul li a {
+.menu ul li .menu-link {
     color: #FFF;
 }
+
+/* ---------------------------------- */
 
 
 /* --------------------------------------------------------------
@@ -243,7 +233,7 @@ ul {
 }
 
 .baner-video-container .escudo {
-    z-index: 1202;
+    z-index: 500;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -262,7 +252,7 @@ ul {
     width: 100%;
     background-color: black;
     opacity: 0.2;
-    z-index: 1;
+    z-index: 100;
 }
 
 .baner-video-container video {

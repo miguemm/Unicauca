@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unicauca</title>
 
+    <!-- BOOSTRAP -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap.css">
+    <!-- MDB -->
+    <link rel="stylesheet" href="assets/vendor/mdb.min.css" />
+    <!-- MAIN CSS -->
     <link rel="stylesheet" href="assets/css/header.css">
 
 </head>
@@ -19,7 +24,7 @@
         <!-- ======= BARRA SUPERIOR ======= -->
         <div class="dc-menu-sup">
             <div class="dc-menu-sup-cont">
-                <div class="dc-plataformas">
+                <div class="menu-roles">
                     <ul>
                         <li><a href="https://intranet.javeriana.edu.co/inicio">Aspirante</a></li>
                         <div class="dc-separador">|</div>
@@ -34,7 +39,7 @@
 
                     </ul>
                 </div>
-                <div class="dc-contacto">
+                <div class="menu-gobierno">
                     <ul>
                         <li><a href="https://intranet.javeriana.edu.co/inicio">Participa</a></li>
                         <div class="dc-separador">|</div>
@@ -52,7 +57,7 @@
                                     src="https://www.javeriana.edu.co/recursosdb/20125/5571273/tt-azul.png/82bfcfd3-3bab-9cfc-5754-723dd82401c6?t=1652282351227"></a>
                         </li>
                         <li><a href="https://www.instagram.com" target="_blank"><img
-                                    src="https://www.javeriana.edu.co/recursosdb/20125/5571273/fb-azul.png/7474d09e-47a2-e864-0df9-dd420b606333?t=1652282349934"></a>
+                                    src="https://www.javeriana.edu.co/recursosdb/20125/5571273/ig-azul.png/c109526c-1e8d-9fe3-599d-61004baf75a4?t=1652282350047"></a>
                         </li>
                         <li><a href="https://www.youtube.com" target="_blank"><img
                                     src="https://www.javeriana.edu.co/recursosdb/20125/5571273/yt-azul.png/647ee7e2-1342-2fa3-f05d-3847f69533e3?t=1652282351364"></a>
@@ -64,30 +69,178 @@
 
 
         <!-- ======= NAVEGACION ======= -->
-        <div class="dc-menu-ppal">
-            <div class="dc-hamburguesa">
+        <div class="menu-principal">
+            <div class="hamburguesa">
                 <button class="hamburger" style="display: none;">☰</button>
                 <button class="cross" style="display: block;">˟</button>
             </div>
-            <div class="dc-items-menu">
+            <div class="menu">
                 <ul>
-                    <li><a href="#">Estudia en la Javeriana</a></li>
+                    <!-- MEGA MENU -->
+                    <li class="nav-item dropdown position-static">
+                        <a class="menu-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            Oferta Academica
+                        </a>
+                        <!-- DROPDOWN MENU -->
+                        <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown">
+                            <div class="container">
+                                <div class="row my-4">
+                                    <div class="col-md-6 col-xl-3 mb-3 mb-xl-0">
+                                        <div class="pt-2">
+                                            <p class="text-uppercase font-weight-bold">
+                                                Estudia en Unicauca
+                                            </p>
+                                            <div class="bg-image hover-overlay shadow-1-strong rounded ripple mb-4"
+                                                data-mdb-ripple-color="light">
+                                                <img src="assets/media/estudia.jpg" class="img-fluid" />
+                                            </div>
+                                            <div class="row">
+                                                <a href="" class="text-info">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                                                        <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                                                        <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+                                                    </svg>
+                                                    INSCRIBETE</a>                                        
+                                            </div><br>
+                                            <div class="row">
+                                                <a href="" class="text-info">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                                        <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                                                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                                                      </svg>
+                                                    CALENDARIO ACADEMICO</a>                                        
+                                            </div>
+
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3">
+                                        <div class="list-group list-group-flush">
+                                            <p class="mb-0 list-group-item text-uppercase font-weight-bold">
+                                                PREGRADO
+                                            </p>
+
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseArtes" role="button" aria-expanded="false"
+                                                aria-controls="collapseArtes">
+                                                <i class="fas fa-caret-right pe-2"></i>Facultad Artes
+                                            </a>
+
+
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseAgrarias" role="button" aria-expanded="false"
+                                                aria-controls="collapseAgrarias">
+                                                <i class="fas fa-caret-right pe-2"></i>Facultad Ciencias Agrarias
+                                            </a>
+
+
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseSalud" role="button" aria-expanded="false"
+                                                aria-controls="collapseSalud">
+                                                <i class="fas fa-caret-right pe-2"></i>Facultad Ciencias de la Salud
+                                            </a>
+
+
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseContables" role="button" aria-expanded="false"
+                                                aria-controls="collapseContables">
+                                                <i class="fas fa-caret-right pe-2"></i>Facultad Ciencias Contables,
+                                                Economicas y Administrativas
+                                            </a>
+
+
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseHumanas" role="button" aria-expanded="false"
+                                                aria-controls="collapseHumanas">
+                                                <i class="fas fa-caret-right pe-2"></i>Facultad Ciencias Humanas y
+                                                Sociales
+                                            </a>
+
+
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseEducacion" role="button" aria-expanded="false"
+                                                aria-controls="collapseEducacion">
+                                                <i class="fas fa-caret-right pe-2"></i>Facultad de Ciencias Naturales,
+                                                Exactas y de la Educación
+                                            </a>
+
+
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseDerecho" role="button" aria-expanded="false"
+                                                aria-controls="collapseDerecho">
+                                                <i class="fas fa-caret-right pe-2"></i>Facultad de Derecho, Ciencias
+                                                Políticas y Sociales
+                                            </a>
+
+
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseCivil" role="button" aria-expanded="false"
+                                                aria-controls="collapseCivil">
+                                                <i class="fas fa-caret-right pe-2"></i>Facultad de Ingenieria Civil
+                                            </a>
+
+
+
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseElectronica" role="button" aria-expanded="false"
+                                                aria-controls="collapseElectronica">
+                                                <i class="fas fa-caret-right pe-2"></i>Facultad Ing Electronica y
+                                                Telecomunicaciones
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3 mb-3 mb-md-0">
+                                        <div class="list-group list-group-flush">
+                                            <p class="mb-0 list-group-item text-uppercase font-weight-bold">
+                                                POSGRADO
+                                            </p>
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseArtesPosgrado" role="button" aria-expanded="false"
+                                                aria-controls="collapseArtesPosgrado">
+                                                <i class="fas fa-caret-right pe-2"></i>Especializaciones
+                                            </a>
+
+
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseAgrariasPosgrado" role="button" aria-expanded="false"
+                                                aria-controls="collapseAgrariasPosgrado">
+                                                <i class="fas fa-caret-right pe-2"></i>Maestrías
+                                            </a>
+
+
+                                            <a class="list-group-item list-group-item-action" data-mdb-toggle="collapse"
+                                                href="#collapseSaludPosgrado" role="button" aria-expanded="false"
+                                                aria-controls="collapseSaludPosgrado">
+                                                <i class="fas fa-caret-right pe-2"></i>Doctorados
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xl-3">
+                                        <div class="list-group list-group-flush">
+                                            <p class="mb-0 list-group-item text-uppercase font-weight-bold">
+                                                OTROS
+                                            </p>
+                                            <a href="" class="list-group-item list-group-item-action">Centro de
+                                                Educacion Continua, Abierta y Virtual (CECAV)</a>
+                                            <a href="" class="list-group-item list-group-item-action">Unilingua</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                     <div class="dc-separador">|</div>
-                    <li><a href="#">Investigación y creación</a></li>
-                    
-                    <!-- escudo -->
-                    
-                    <li><a href="#">Innovación y emprendimiento</a></li>
+                    <li><a class="menu-link" href="#">Investigación</a></li>
                     <div class="dc-separador">|</div>
-                    <li><a href="#">Consultorías y desarrollo</a></li>
+                    <li><a class="menu-link" href="#">Acerca de Unicauca</a></li>
                 </ul>
             </div>
         </div>
 
     </div>
-
-
-
 
     <!-- ======= BANER DE VIDEO ======= -->
     <div class="baner-video-container">
@@ -100,7 +253,8 @@
         </video>
     </div>
 
-
+    <!-- MDB -->
+    <script type="text/javascript" src="assets/vendor/mdb.min.js"></script>
 </body>
 
-</html>
+</html> -->
