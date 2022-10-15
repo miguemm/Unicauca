@@ -163,19 +163,6 @@ a {
     font-family: HelveticaLight;
 }
 
-.hamburguesa {
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    position: absolute;
-    left: 0px;
-    margin-top: 7px;
-}
-
-/* TODO HAMBURGER */
-
 .menu {
     display: flex;
     flex-wrap: nowrap;
