@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgba(13, 110, 139, 0.75);
-    --overlay-color: rgba(24, 39, 51, 0.85);
+    --overlay-color: linear-gradient(180deg, rgba(23,50,104,1) 0%, rgba(23,50,104,1) 78%, rgba(255,255,255,1) 100%);
     --menu-speed: 0.75s;
 }
 
@@ -24,7 +24,7 @@
     font-weight: 600;
     cursor: pointer;
     outline: none;
-    z-index: 5;
+    z-index: 1005;
 }
 
 .cross {
@@ -37,7 +37,7 @@
     font-weight: 600;
     cursor: pointer;
     outline: none;
-    z-index: 5;
+    z-index: 1005;
 }
 
 .hamburger-menu {
@@ -58,3 +58,4 @@
     transform: scale(0);
     transition: .3s ease opacity,.3s ease transform;
 }
+

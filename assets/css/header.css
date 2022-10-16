@@ -169,6 +169,7 @@ a {
     max-width: 1320px;
     font-family: 'HelveticaLight';
     font-size: 0.9rem;
+    align-items: center;
 }
 
 .menu ul {
@@ -180,7 +181,7 @@ a {
     justify-content: center;
     max-width: 1320px;
 
-    margin-block-start: 1em;
+    /* margin-block-start: 1em; */
     /* margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -194,6 +195,7 @@ a {
 }
 
 .menu ul li .menu-link {
+    font-size: 18px;
     color: #FFF;
 }
 
