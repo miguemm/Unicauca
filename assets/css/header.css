@@ -1,3 +1,9 @@
+/* Colors */
+:root {
+    --color-primary-header: #173268;
+    --color-secondary-header: #1977cc;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +45,6 @@
     max-width: 1320px;
     flex-wrap: wrap;
     background-color: #FFF;
-    color: #173268;
     justify-content: center;
     margin: 0 auto;
     font-family: HelveticaLight;
@@ -155,7 +160,7 @@ a {
     display: flex;
     color: #FFF;
     width: 100%;
-    background-color: #173268;
+    background-color: var(--color-primary-header);
     height: 50px;
     flex-wrap: nowrap;
     margin: 0 auto;
@@ -261,4 +266,8 @@ a {
 
 video {
     object-fit: contain;
+}
+
+.dc-separador{
+    padding: 0 10px;
 }

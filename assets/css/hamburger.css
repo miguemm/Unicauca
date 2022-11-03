@@ -1,5 +1,4 @@
 :root {
-    --primary-color: rgba(13, 110, 139, 0.75);
     --overlay-color: linear-gradient(180deg, rgba(23,50,104,1) 0%, rgba(23,50,104,1) 78%, rgba(255,255,255,1) 100%);
     --menu-speed: 0.75s;
 }

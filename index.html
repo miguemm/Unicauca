@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="assets/css/unicaucaCifras.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/hamburger.css">
+    <link rel="stylesheet" href="assets/css/boxes.css">
+    <link rel="stylesheet" href="assets/css/hamburger-menu.css">
 
 </head>
 
@@ -83,7 +85,7 @@
                 <button class="hamburger" id="hamburgerBtn" style="display: block;">☰</button>
                 <button class="cross" id="crossBtn" style="display: none;">˟</button>
             </div>
-            
+
             <div class="menu">
                 <ul>
                     <!-- MEGA MENU -->
@@ -238,12 +240,9 @@
                                     <div class="col-md-6 col-xl-3">
                                         <div class="list-group list-group-flush">
                                             <p class="mb-0 list-group-item text-uppercase font-weight-bold">
-                                                OTROS
+                                                REGIONALIZACION
                                             </p>
-                                            <a href="" class="list-group-item list-group-item-action">Centro de
-                                                Educacion Continua, Abierta y Virtual (CECAV)</a>
-                                            <a href="" class="list-group-item list-group-item-action">Unilingua</a>
-
+                                            <a href="" class="list-group-item list-group-item-action">Sede Santander de Quilichao</a>
                                         </div>
                                     </div>
                                 </div>
@@ -252,6 +251,8 @@
                     </li>
                     <div class="dc-separador">|</div>
                     <li><a class="menu-link" href="#">Investigación</a></li>
+                    <div class="dc-separador">|</div>
+                    <li><a class="menu-link" href="#">Cultura y Bienestar</a></li>
                     <div class="dc-separador">|</div>
                     <li><a class="menu-link" href="#">Acerca de Unicauca</a></li>
                 </ul>
@@ -262,8 +263,65 @@
 
     <div class="hamburger-menu" id="hamburger-menu">
         <div class="container">
-            lore
-        </div> 
+            <nav class="hamburger-nav">
+                <menu>
+                    <menuitem id="demo1">
+                        <a>Sistemas de Informacion</a>
+                        <menu>
+                            <menuitem><a>Simca</a></menuitem>
+                            <menuitem><a>Biblioteca</a></menuitem>
+                            <menuitem><a>Sivri</a></menuitem>
+                            <menuitem>
+                                <a>Sistema de Pagos</a>
+                                <menu>
+                                    <menuitem><a>Pagos PSE</a></menuitem>
+                                    <menuitem><a>Recibo de Matricula</a></menuitem>
+                                    <menuitem><a>Desprendible de Pago</a></menuitem>
+                                </menu>
+                            </menuitem>
+                            <menuitem><a>Sistema de Contratacion</a></menuitem>
+                            <menuitem><a>Solicitud de Mantenimienro</a></menuitem>
+                        </menu>
+                    </menuitem>
+                    <menuitem>
+                        <a>Plataformas Virtuales</a>
+                        <menu>
+                            <menuitem><a>Moodle</a></menuitem>
+                            <menuitem><a>Eva</a></menuitem>
+                            <menuitem><a>Selene</a></menuitem>
+                        </menu>
+                    </menuitem>
+                    <menuitem>
+                        <a>Servicios Unicauca</a>
+                        <menu>
+                            <menuitem><a>Consultoria Juridica</a></menuitem>
+                            <menuitem><a>Museos</a></menuitem>
+                            <menuitem><a>Cecav</a></menuitem>
+                            <menuitem><a>Unilingua</a></menuitem>
+                            <menuitem><a>Unidad de Salud</a></menuitem>
+                            <menuitem><a>Carnetizacion</a></menuitem>
+                        </menu>
+                    </menuitem>
+                    <menuitem>
+                        <a>Nuestros Medios</a>
+                        <menu>
+                            <menuitem><a>Emisora</a></menuitem>
+                            <menuitem><a>Unicauca TV</a></menuitem>
+                            <menuitem><a>Revistas</a></menuitem>
+                            <menuitem><a>Periodico Estudiantil</a></menuitem>
+                        </menu>
+                    </menuitem>
+                    <menuitem>
+                        <a>Repositorio Unicauca</a>
+                        <menu>
+                            <menuitem><a>LVMEN</a></menuitem>
+                            <menuitem><a>Archivo Historico</a></menuitem>
+                            <menuitem><a>Gestion Documental</a></menuitem>
+                        </menu>
+                    </menuitem>
+                </menu>
+            </nav>
+        </div>
     </div>
 
     <!-- ======= BANER DE VIDEO ======= -->
@@ -1453,6 +1511,42 @@
 
     <!-- MAIN -->
     <script src="assets/js/hamburgesa.js"></script>
+    <script src="assets/js/hamburger-menu.js"></script>
 </body>
 
 </html>
+
+
+<!-- <menu>
+    <menuitem id="demo1">
+    <a>Servicios Unicauca</a>
+    <menu>
+        <menuitem><a>about</a></menuitem>
+        <menuitem>
+        <a>settings</a>
+        <menu>
+            <menuitem><a>Test 1</a></menuitem>
+            <menuitem><a>Test 2</a></menuitem>
+            <menuitem><a>Test 3</a></menuitem>
+            <menuitem><a>Test 4</a></menuitem>
+        </menu>
+        </menuitem>
+        <menuitem><a>help</a></menuitem>
+        <menuitem id="demo2">
+        <a>more</a>
+        <menu>
+            <menuitem id="demo3">
+            <a>deeper</a>
+            <menu>
+                <menuitem><a>deep 1</a></menuitem>
+                <menuitem><a>deep 2</a></menuitem>
+                <menuitem><a>deep 3</a></menuitem>
+            </menu>
+            </menuitem>
+            <menuitem><a>test</a></menuitem>
+        </menu>
+        </menuitem>
+    </menu>
+    </menuitem>
+    <menuitem><a>no drop</a></menuitem>
+</menu> -->
